@@ -29,22 +29,19 @@
 				<section class="dark-blue">
 					<section class="gradient-border">
 						<h1>Basics of Cloud Architecture</h1>
+						<br />
+						<br />
+						<a href="https://imgflip.com/i/2rrjqd/" target="_blank"><img src="img/title.jpg" /></a>
 
 						<aside class="notes">
 							<ul>
-							</ul>
-						</aside>
-					</section>
-				</section>
-
-				<section class="dark-blue">
-					<section class="gradient-border">
-						<h1>Disclaimers</h1>
-
-						<aside class="notes">
-							<ul>
-								<li>Session is basic introduction to cloud terminology, nothing advanced</li>
-								<li>Generalisation of concepts. Providers may provide something different/better</li>
+								<li>
+									Disclaimers:
+								</li>
+								<ul>
+									<li>Session is basic introduction to cloud terminology, nothing advanced</li>
+									<li>Generalisation of concepts. Providers may provide something different/better</li>
+								</ul>
 							</ul>
 						</aside>
 					</section>
@@ -53,12 +50,13 @@
 				<section class="dark-blue">
 					<section class="gradient-border">
 						<h1>What is the Cloud?</h1>
-						<img src="img/what-is-the-cloud.png" height="750px" />
+						<a href="https://www.cloudflare.com/learning/cloud/what-is-the-cloud/" target="_blank"><img src="img/what-is-the-cloud.png" height="750px" /></a>
 
 						<aside class="notes">
 							<ul>
 								<li>Set of pooled computing resources</li>
-								<li>Management software/systemed used to allocate resources to perform the desired function</li>
+								<li>Management software/systems used to allocate resources to perform the desired function</li>
+								<li>Allows for scaling up/down of resource consumption on-demand</li>
 								<li>Can include other functionality (e.g. monitoring, identity management) to provide a more complete solution</li>
 							</ul>
 						</aside>
@@ -68,6 +66,9 @@
 				<section class="dark-blue">
 					<section class="gradient-border">
 						<h1>Types of Clouds</h1>
+						<br />
+						<br />
+						<a href="https://commons.wikimedia.org/wiki/File:Cloud_types.jpg" target="_blank"><img src="img/types-of-clouds.jpg" /></a>
 
 						<aside class="notes">
 							<ul>
@@ -82,8 +83,11 @@
 							<h1>Public Cloud</h1>
 							<ul class="list text-align-left">
 								<li>Third-party hosted</li>
-								<li>Intended for making something publically accessible</li>
+								<li>Resources shared between everyone, allocated as required</li>
 							</ul>
+							<br />
+							<br />
+							<a href="https://www.cloudflare.com/learning/cloud/what-is-a-public-cloud/" target="_blank"><img src="img/public-cloud.png" height="400px" /></a>
 
 						</div>
 						<aside class="notes">
@@ -99,26 +103,13 @@
 							<h1>Private Cloud</h1>
 							<ul class="list text-align-left">
 								<li>Self-hosted or Third-party hosted</li>
-								<li>Intended for making something accessible to a limited set of people/organisations</li>
-								<li>Usually requires additional security to access resources (e.g. VPN)</li>
+								<li>Resources are exclusively for one organisation</li>
+								<li>Usually more secure than public cloud, as connections are only allowed from certain sources and resources are not shared</li>
+								<li>Virtual Private Cloud</li>
 							</ul>
-
-						</div>
-						<aside class="notes">
-							<ul>
-							</ul>
-						</aside>
-					</section>
-				</section>
-
-				<section class="dark-blue">
-					<section class="gradient-right">
-						<div class="gradient-right-content">
-							<h1>Multicloud</h1>
-							<ul class="list text-align-left">
-								<li>Two or more clouds</li>
-								<li>TODO: Add more</li>
-							</ul>
+							<br />
+							<br />
+							<a href="https://www.cloudflare.com/learning/cloud/what-is-a-public-cloud/" target="_blank"><img src="img/private-cloud.png" height="400px" /></a>
 
 						</div>
 						<aside class="notes">
@@ -134,8 +125,40 @@
 							<h1>Hybrid Cloud</h1>
 							<ul class="list text-align-left">
 								<li>Mixture of cloud types</li>
-								<li>TODO: Add more</li>
+								<li>Example:</li>
+								<ul>
+									<li>Public Cloud: High volume operations, with lower security requirements</li>
+									<li>Private Cloud: Business critical / sensitive operations</li>
+								</ul>
 							</ul>
+							<br />
+							<br />
+							<a href="https://www.cloudflare.com/learning/cloud/what-is-hybrid-cloud/" target="_blank"><img src="img/hybrid-cloud.png" /></a>
+
+						</div>
+						<aside class="notes">
+							<ul>
+							</ul>
+						</aside>
+					</section>
+				</section>
+
+				<section class="dark-blue">
+					<section class="gradient-right">
+						<div class="gradient-right-content">
+							<h1>Multicloud</h1>
+							<ul class="list text-align-left">
+								<li>Two or more clouds</li>
+								<li>Why?</li>
+								<ul>
+									<li>Risk mitigation</li>
+									<li>Potential cost savings</li>
+									<li>Ability to choose "best of breed" solution</li>
+								</ul>
+							</ul>
+							<br />
+							<br />
+							<a href="https://www.cloudflare.com/learning/cloud/what-is-hybrid-cloud/" target="_blank"><img src="img/multi-cloud.png" /></a>
 
 						</div>
 						<aside class="notes">
@@ -155,13 +178,15 @@
 								<ul>
 									<li>Regulatory restrictions/requirements</li>
 									<li>Security/Accessibility</li>
-									<li>TODO: Add more</li>
+									<li>Current state of infrastructure</li>
+									<li>Staff knowledge/expertise with cloud</li>
 								</ul>
 							</ul>
 
 						</div>
 						<aside class="notes">
 							<ul>
+								<li>Regulatory restrictions/requirements: GDPR</li>
 							</ul>
 						</aside>
 					</section>
@@ -170,6 +195,7 @@
 				<section class="dark-blue">
 					<section class="gradient-border">
 						<h1>Components of Clouds</h1>
+						<a href="https://www.reddit.com/r/ProgrammerHumor/comments/6cer5t/what_are_clouds_made_of/" target="_blank"><img src="img/cloud-components.jpg" /></a>
 
 						<aside class="notes">
 							<ul>
@@ -183,8 +209,8 @@
 						<div class="gradient-right-content">
 							<h1>Storage</h1>
 							<ul class="list text-align-left">
-								<li>Object Storage</li>
 								<li>Block Storage</li>
+								<li>Object Storage</li>
 								<li>Storage type options (SSD, HDD):</li>
 								<ul>
 									<li>Speed vs. Price</li>
@@ -193,29 +219,30 @@
 								<ul>
 									<li>Regulatory requirements</li>
 								</ul>
+								<li>Redundancy location options:</li>
+								<ul>
+									<li>Availability vs. Price</li>
+								</ul>
 								<li>Regularly check access restrictions</li>
 							</ul>
 
 						</div>
 						<aside class="notes">
 							<ul>
-							</ul>
-						</aside>
-					</section>
-				</section>
-
-				<section class="dark-blue">
-					<section class="gradient-right">
-						<div class="gradient-right-content">
-							<h1>Big Data</h1>
-							<ul class="list text-align-left">
-								<li>Data Warehousing</li>
-								<li>Stream data processing</li>
-							</ul>
-
-						</div>
-						<aside class="notes">
-							<ul>
+								<li>Block Storage</li>
+								<ul>
+									<li>Like a hard drive or network share</li>
+									<li>Data is broken into blocks</li>
+									<li>Accessed/Manipulated through OS-level file system calls</li>
+									<li>Little to no metadata stored</li>
+									<li>Useful for: applications that require file system storage or high performance (databases)</li>
+								</ul>
+								<li>Object Storage</li>
+								<ul>
+									<li>Accessed/Manipulated via APIs</li>
+									<li>Value Add: Metadata stored with the object, better for identification and classification</li>
+									<li>Useful for: scalability</li>
+								</ul>
 							</ul>
 						</aside>
 					</section>
@@ -227,6 +254,8 @@
 							<h1>Networking</h1>
 							<ul class="list text-align-left">
 								<li>API Gateway</li>
+								<a href="https://docs.microsoft.com/en-us/azure/architecture/microservices/design/gateway/" target="_blank"><img src="img/api-gateway.png" height="300px" /></a>
+								<br />
 								<li>Event/Messaging Bus</li>
 							</ul>
 
@@ -253,22 +282,55 @@
 								<li>Configuration</li>
 								<ul>
 									<li>Platform-managed</li>
-									<ul>
-										<li>Usually cost effective</li>
-										<li>Automatic integration into logging/monitoring systems</li>
-										<li>Limited Language Support</li>
-										<li>Resource Restrictions</li>
-									</ul>
 									<li>Kubernetes</li>
-									<ul>
-										<li>Good for heavy processing / large workloads</li>
-										<li>Could be more cost-effective for request-heavy system</li>
-										<li>Better language support -> legacy applications</li>
-									</ul>
 								</ul>
 							</ul>
 
 						</div>
+						<aside class="notes">
+							<ul>
+								<li>Platform-managed</li>
+								<ul>
+									<li>Usually cost effective</li>
+									<li>Automatic integration into logging/monitoring systems</li>
+									<li>Limited Language Support</li>
+									<li>Resource Restrictions</li>
+								</ul>
+								<li>Kubernetes</li>
+								<ul>
+									<li>Good for heavy processing / large workloads</li>
+									<li>Could be more cost-effective for request-heavy system</li>
+									<li>Better language support -> legacy applications</li>
+								</ul>
+							</ul>
+						</aside>
+					</section>
+				</section>
+
+				<section class="dark-blue">
+					<section class="gradient-right">
+						<div class="gradient-right-content">
+							<h1>Other Functionality</h1>
+							<ul class="list text-align-left">
+								<li>Virtual Machines</li>
+								<li>Data Warehousing</li>
+								<li>Stream data processing</li>
+								<li>Machine Learning</li>
+							</ul>
+
+						</div>
+						<aside class="notes">
+							<ul>
+							</ul>
+						</aside>
+					</section>
+				</section>
+
+				<section class="dark-blue">
+					<section class="gradient-border">
+						<h1>Example</h1>
+						<img src="img/example.png" />
+
 						<aside class="notes">
 							<ul>
 							</ul>
@@ -292,6 +354,10 @@
 				<section class="dark-blue">
 					<section class="gradient-border">
 						<h1>Cloud Forum</h1>
+						<br />
+						<br />
+						<br />
+						<h2>11 May</h2>
 
 						<aside class="notes">
 							<ul>
@@ -301,19 +367,32 @@
 				</section>
 
 				<section class="dark-blue">
-					<section class="gradient-border">
-						<h1>References</h1>
-
-						<aside class="notes">
-							<ul>
+					<section class="gradient-right">
+						<div class="gradient-right-content">
+							<h1>References</h1>
+							<ul class="list text-align-left" style="font-size: 2.0rem">
+								<li><a href="https://www.redhat.com/en/topics/cloud-computing/what-is-cloud-architecture/" target="_blank">https://www.redhat.com/en/topics/cloud-computing/what-is-cloud-architecture/</a></li>
+								<li><a href="https://www.cloudflare.com/learning/cloud/what-is-the-cloud/" target="_blank">https://www.cloudflare.com/learning/cloud/what-is-the-cloud/</a></li>
+								<li><a href="https://www.cloudflare.com/learning/cloud/what-is-a-public-cloud/" target="_blank">https://www.cloudflare.com/learning/cloud/what-is-a-public-cloud/</a></li>
+								<li><a href="https://www.cloudflare.com/learning/cloud/what-is-hybrid-cloud/" target="_blank">https://www.cloudflare.com/learning/cloud/what-is-hybrid-cloud/</a></li>
+								<li><a href="https://azure.microsoft.com/en-us/overview/what-are-private-public-hybrid-clouds/" target="_blank">https://azure.microsoft.com/en-us/overview/what-are-private-public-hybrid-clouds/</a></li>
+								<li><a href="https://cloudacademy.com/blog/object-storage-block-storage/" target="_blank">https://cloudacademy.com/blog/object-storage-block-storage/</a></li>
+								<li><a href="https://docs.microsoft.com/en-us/azure/architecture/microservices/design/gateway/" target="_blank">https://docs.microsoft.com/en-us/azure/architecture/microservices/design/gateway/</a></li>
+								<li><a href="https://medium.com/statuscode/cloud-functions-vs-container-engine-5c773e364ced/" target="_blank">https://medium.com/statuscode/cloud-functions-vs-container-engine-5c773e364ced/</a></li>
+								<li><a href="https://www.reddit.com/r/ProgrammerHumor/comments/6cer5t/what_are_clouds_made_of/" target="_blank">https://www.reddit.com/r/ProgrammerHumor/comments/6cer5t/what_are_clouds_made_of/</a></li>
+								<li><a href="https://makeameme.org/meme/there-will-be-5bd8ef" target="_blank">https://makeameme.org/meme/there-will-be-5bd8ef</a></li>
+								<li><a href="https://commons.wikimedia.org/wiki/File:Cloud_types.jpg" target="_blank">https://commons.wikimedia.org/wiki/File:Cloud_types.jpg</a></li>
 							</ul>
-						</aside>
+						</div>
 					</section>
 				</section>
 
 				<section class="dark-blue">
 					<section class="gradient-border">
 						<h1>Questions</h1>
+						<br />
+						<br />
+						<a href="https://makeameme.org/meme/there-will-be-5bd8ef/" target="_blank"><img src="img/questions.jpg" /></a>
 
 						<aside class="notes">
 							<ul>
